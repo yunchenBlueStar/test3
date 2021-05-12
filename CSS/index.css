@@ -1,0 +1,577 @@
+body{
+    background-color: #DDDDDD;
+    font-family: 微軟正黑體;
+}
+#resumePage{
+    width: 1500px;
+    height: 100%;
+    box-shadow: 10px 10px 10px gray;
+    margin: 0 auto 100px auto;
+}
+#intro{
+    margin: 100px auto 0 auto;
+    background-color: white;
+    width: 1500px;
+    height: 750px;
+}
+#intro #jumbotron{
+    background-color: #ced7df;
+    width: 1500px;
+    height: 300px;
+}
+#jumbotron #jumbotronText{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+#intro #headShot{
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+    margin: -10% 40% 4% 40%;
+}
+
+#intro #textBox{
+    border-bottom: 4px solid #eff0f2;
+    width: 80%;
+    margin: 0 auto;
+}
+#textBox #name{
+    text-align: center;
+    font-size: 60px;
+    font-family: '微軟正黑體';
+    letter-spacing: 10px;
+}
+#textBox #englishName{
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+    padding-bottom: 50px;
+}
+
+#second{
+    margin:  0 auto;
+    background-color: white;
+    width: 1500px;
+    height: 2570px;
+}
+#second table {
+
+   width: 80%;
+   margin: 0 auto;
+}
+
+#second table #Profile #ProfileDescription{
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#second table #Profile #ProfileDetail{
+    display: flex;
+}
+#second table #Profile #ProfileDetailRight{
+    margin-left: 40px;
+}
+#second table .tableSectionBox{
+    margin-bottom: 40px;
+}
+#second table #tableRight{
+    padding-left: 50px;
+    width: 50%;
+    position: absolute;
+    border-left: 4px solid #eff0f2;
+ }
+#second table #tableLeft{
+    /* border-right: 4px solid #eff0f2; */
+    width: 50%;
+}
+#second #secondTableTitle{
+    color: gray;
+    font-size: 40px;
+    
+}
+#second #secondTableTitle2{
+    font-size: 20px;
+    color: gray;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#second #tableTitleBox{
+    display: flex;
+    font-weight: bold;
+}
+#second #skillTable{
+   margin: 0;
+}
+#second #skillTable td{
+    width: 50%;
+ }
+ #second #skillTable #skillTableCircleText{
+    margin-left: 15%;
+    width: 50%;
+    text-align: center;
+    height: 50px;
+ }
+ #second #skillProgressBox #skillBarBox{
+  margin-bottom: 100px;
+ }
+ #second #skillProgressBox #skillBarBox #skillsText{
+  text-align: left;
+ }
+ #second #Education #EducationBox{
+   margin-bottom: 40px;
+ }
+#second #Education #EducationBox #schoolName{
+  font-size: 20px;
+}
+#second #Education #EducationBox #schoolEngName{
+  font-size: 15px;
+  margin-left: 100px;
+}
+#second #Experience #ClassExperienceTitleText{
+  border: 5px solid #66b8ff;
+  width: 23%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 17px;
+}
+#second #Experience #ClassExperienceTitleText2{
+  border: 5px solid #66b8ff;
+  width: 25%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 17px;
+}
+#second #Experience #ClassExperienceTitleText3{
+  border: 5px solid #66b8ff;
+  width: 25%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 17px;
+}
+#second #Experience #ClassExperienceTitleText4{
+  border: 5px solid #66b8ff;
+  width: 27%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 17px;
+}
+#second #Experience #ClassExperienceBox{
+  margin-bottom: 30px;
+}
+#ClassExperienceCategory{
+  font-size: 25px;
+  font-weight: bold;
+}
+#third{
+  margin:  0 auto;
+    background-color: white;
+    width: 1500px;
+    height: 500px;
+}
+#third #tableTitleBox{
+  color: gray;
+  display: flex;
+  font-weight: bold;
+  margin-left: 10%;
+
+}
+#third #secondTableTitle{
+  font-size: 40px;
+}
+#third #secondTableTitle2{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+/*Process Circle*/
+
+#processCircleTop{
+    text-align: center;
+    font-weight: bold;
+}
+  .progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ebebeb; }
+  
+  .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s; }
+  
+  .progress-circle span {
+    font-size: 2rem;
+    color: #8b8b8b;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 110px;
+    margin-left: -50px;
+    margin-top: -50px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1; }
+  #rank1Animation{
+    position: absolute;
+    top: 43%;
+    left: 35%;
+    z-index: 20;
+    font-size: 2rem;
+    color: gray;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .progress-circle span:after {
+    content: "";
+    font-weight: 600;
+    color: #8b8b8b; }
+  
+
+    .progress-circle.progress-86:after {
+        background-image: linear-gradient(39.2deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+    .progress-circle.progress-96:after {
+        background-image: linear-gradient(75.6deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+    .progress-circle.progress-75:after {
+        background-image: linear-gradient(0deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+    .progress-circle.progress-90:after {
+        background-image: linear-gradient(54deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+        @-webkit-keyframes colorload {
+            0% {
+              opacity: 0;
+              transform: rotate(0deg); }
+            100% {
+              opacity: 1;
+              transform: rotate(360deg); } 
+    }
+    
+/*Process Circle*/
+/*Progress*/
+#wrapper
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+}
+#wrapper h1
+{
+ margin-top:100px;
+ font-size:55px;
+ color:#2E64FE;
+}
+#wrapper h1 a
+{
+ color:#2E64FE;
+ font-size:18px;
+}
+.skill_name 
+{
+ margin-left:250px;
+ width:50px;
+ height:40px;
+ line-height:40px;
+ font-weight:bold;
+ font-size:13px;
+ color:white;
+ clear:both;
+ float:left;
+ border-radius:3px 0px 0px 3px;
+}
+
+.skillbar_wrapper 
+{
+ float:left;
+ position:relative;
+ display:block;
+ margin-bottom:15px;
+ width:400px;
+ background-color:#E6E6E6;
+ height:40px;
+ border-radius:0px 3px 3px 0px;
+}
+.skillbar_bar 
+{
+ height:40px;
+ width:0px;
+ border-radius:0px 3px 3px 0px;
+ background-color:#66b8ff;
+}
+
+.skill_bar_percent 
+{
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  color: white;
+  font-size: 22px;
+  height: 35px;
+  font-weight: bold;
+  line-height: 35px;
+}
+#third #thirdTopLight{
+  border-top: 4px solid #eff0f2;
+  width: 80%;
+  height: 1px;
+  margin: 0 auto;
+}
+/*Progress*/
+/*圖片特效製作*/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px 0px 10px 80px;
+  min-width: 230px;
+  max-width: 500px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.snip1584 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: #ae895d;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200);
+.snip1577 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+
+.snip1577 *,
+.snip1577:before,
+.snip1577:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1577 img {
+  width: 315px;
+  backface-visibility: hidden;
+  vertical-align: top;
+  background-color: white;
+}
+
+.snip1577:before,
+.snip1577:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1577:before {
+  width: 0;
+  height: 1px;
+}
+
+.snip1577:after {
+  height: 0;
+  width: 1px;
+}
+
+.snip1577 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.snip1577 h3,
+.snip1577 h4 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.snip1577 h4 {
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+.snip1577 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1577:hover img,
+.snip1577.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before,
+.snip1577:hover:after,
+.snip1577.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before {
+  width: 40px;
+}
+
+.snip1577:hover:after,
+.snip1577.hover:after {
+  height: 40px;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3,
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  opacity: 1;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+/*圖片特效製作*/
+
+#footer{
+    background-color: #ced7df;
+    width: 1500px;
+    height: 200px;
+}
